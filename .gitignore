@@ -1,0 +1,13 @@
+# Build outputs
+.svelte-kit/
+build/
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
