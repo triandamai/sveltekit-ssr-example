@@ -7,6 +7,7 @@
     <nav class="nav-container">
       <a class="nav-btn {$page.url.pathname === '/' ? 'active' : ''}" href="/">Home</a>
       <a class="nav-btn {$page.url.pathname === '/about' ? 'active' : ''}" href="/about">About</a>
+      <a class="nav-btn {$page.url.pathname === '/login' ? 'active' : ''}" href="/login">Login</a>
     </nav>
 
     <slot></slot>
